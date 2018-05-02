@@ -1,0 +1,7 @@
+config BR2_PACKAGE_KALIBRATE_RTL
+	bool "kalibrate-rtl"
+	depends on BR2_PACKAGE_LIBRTLSDR
+	depends on BR2_PACKAGE_FFTW_PRECISION_DOUBLE
+	help
+	  A tool to calibrate rtl-sdr receiver.
+

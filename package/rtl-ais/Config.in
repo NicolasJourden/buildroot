@@ -1,0 +1,7 @@
+config BR2_PACKAGE_RTL_AIS
+	bool "rtl-ais"
+	select BR2_PACKAGE_LIBRTLSDR
+	help
+	  A software AIS decoder combined with RTL-SDR.
+
+	  https://github.com/dgiardini/rtl-ais

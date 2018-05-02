@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AISDECODER
+	bool "aisdecoder"
+	select BR2_PACKAGE_LIBRTLSDR
+	select BR2_PACKAGE_ALSA_LIB
+	help
+	  A software AIS decoder.
+
+	  http://www.aishub.net/
