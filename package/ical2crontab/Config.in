@@ -1,0 +1,7 @@
+config BR2_PACKAGE_ICAL2CRONTAB
+     bool "ical2crontab"
+     depends on BR2_PACKAGE_LIBICAL
+     help
+       This tool convert ical format into cron format.
+
+       https://github.com/NicolasJourden/ical2crontab
